@@ -1,4 +1,4 @@
-package com.demoandroidlibrary;
+package com.example.library;
 
 import com.facebook.react.ReactActivity;
 
