@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
+  Image,
   Text,
   View
 } from 'react-native';
@@ -22,6 +23,7 @@ export default class DemoAndroidLibrary extends Component {
         <Text style={styles.instructions}>
           To get started, edit index.android.js
         </Text>
+        <Image source={require('./ic_star_black_24dp.png')} />
         <Text style={styles.instructions}>
           Double tap R on your keyboard to reload,{'\n'}
           Shake or press menu button for dev menu
